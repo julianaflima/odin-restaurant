@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+}
+
+#images {
+	display: flex;
+	width: 100vw;
+	height: 100vh
+}
+
+.img-center{
+	object-fit: cover;
+	object-position: center;
+	flex: 1;
+	max-width: 25%;
+}
+
+img {
+	object-fit: cover;
+	object-position: 0%;
+	flex: 1;
+	max-width: 25%;
+}
