@@ -2,6 +2,11 @@
 	margin: 0;
 }
 
+
+#name {
+	background-color: red;
+}
+
 #images {
 	display: flex;
 	width: 100vw;
@@ -11,6 +16,13 @@
 .img-center{
 	object-fit: cover;
 	object-position: center;
+	flex: 1;
+	max-width: 25%;
+}
+
+.img-not-center {
+	object-fit: cover;
+	object-position: 66%;
 	flex: 1;
 	max-width: 25%;
 }
