@@ -16,7 +16,6 @@ function render(content, id, classs) {
 	element.innerHTML = content;
 
 	if (arguments[2] !== undefined) {
-		console.log(arguments[2]);
 		element.classList.add(arguments[2]);
 	}
 

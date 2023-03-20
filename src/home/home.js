@@ -6,10 +6,10 @@ const headerHTML = `<h1 id="name">Sage Bistro</h1>
 </ul>`;
 
 const backgroundContentHTML = `<div id="images">
-	<img class="img-not-center" src="../src/img/pepperjack-pizza-sweetpotato-bbqsprouts-ryebread-nacho-sandwich-106-800x888.jpg.webp">
-	<img class="img-center" src="../src/img/IMG_6556-e1639344180167.jpg.webp" alt="">
-	<img class="img-center" src="../src/img/WarmSpinachSaladwithFigsandRoastedButternutSquash-e1639343923863.jpg.webp" alt="">
-	<img src="../src/img/Pumpkin-Vegan-Crème-Brûlée-780x1170.jpg.webp">
+	<img class="img-not-center" src="../src/img/1.webp">
+	<img class="img-center" src="../src/img/2.webp" alt="">
+	<img class="img-center" src="../src/img/3.webp" alt="">
+	<img src="../src/img/4.webp">
 </div>`; 
 
 const homeContentHTML = `<p>Passionate about making vegan food look and taste good</p>
