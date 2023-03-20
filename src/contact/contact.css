@@ -1,0 +1,16 @@
+#over-img-contact {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	grid-row: 1;
+	grid-column: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	gap: 40px;
+}
+
+#over-img-contact p {
+	animation: fadeIn .5s linear;
+}

@@ -1,0 +1,32 @@
+#over-img-menu {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	grid-row: 1;
+	grid-column: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+#list-of-dishes {
+	margin-top: 40px;
+	width: clamp(45ch, 50%, 75ch);
+	animation: fadeIn .5s linear;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 40px;
+}
+
+#list-of-dishes > div {
+	box-shadow: 40px 30px 0px -24px snow;
+	/*background-color: red;*/
+	border-bottom: 4px solid red;
+
+}
+
+
+
