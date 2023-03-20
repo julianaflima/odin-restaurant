@@ -13,14 +13,14 @@
 }
 
 #list-of-dishes {
-	margin: 60px 0px;
+	margin: 80px 0px;
 	animation: fadeIn .5s linear;
 	display: flex;
 	justify-content: center;
 	/*align-items: center;*/
 	flex-direction: column;
 	gap: 80px;
-	padding: 0px 50px;
+	/*padding: 0px 50px;*/
 }
 
 #list-of-dishes > div {
