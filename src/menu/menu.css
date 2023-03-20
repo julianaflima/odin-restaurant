@@ -8,16 +8,18 @@
 	align-items: center;
 	flex-direction: column;
 	text-align: center;
+	height: inherit;
+	overflow: scroll;
 }
 
 #list-of-dishes {
-	margin-top: 40px;
+	margin: 60px 0px;
 	animation: fadeIn .5s linear;
 	display: flex;
 	justify-content: center;
 	/*align-items: center;*/
 	flex-direction: column;
-	gap: 40px;
+	gap: 80px;
 	padding: 0px 50px;
 }
 

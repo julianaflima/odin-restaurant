@@ -75,12 +75,12 @@ body {
 	display: grid;
 	grid-template-columns: 1;
 	grid-template-rows: 1fr;
+	width: 100vw;
+	height: 78vh;
 }
 
 #images {
 	display: flex;
-	width: 100vw;
-	height: 78vh;
 	grid-row: 1;
 	grid-column: 1;
 }
