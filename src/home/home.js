@@ -1,3 +1,10 @@
+import ImageOne from '../img/1.png';
+import ImageTwo from '../img/2.png';
+import ImageThree from '../img/3.png';
+import ImageFour from '../img/4.png';
+
+
+
 const headerHTML = `<h1 id="name">Sage Bistro</h1>
 <ul id="links"> 
 	<li id="home" class="active">Home</li> 
@@ -5,12 +12,37 @@ const headerHTML = `<h1 id="name">Sage Bistro</h1>
 	<li id="contact">Contact</li>
 </ul>`;
 
-const backgroundContentHTML = `<div id="images">
-	<img class="img-not-center" src="../src/img/1.webp">
-	<img class="img-center" src="../src/img/2.webp" alt="">
-	<img class="img-center" src="../src/img/3.webp" alt="">
-	<img src="../src/img/4.webp">
-</div>`; 
+// const backgroundContentHTML = `<div id="images">
+// 	<img class="img-not-center" src="">
+// 	<img class="img-center" src="" alt="">
+// 	<img class="img-center" src="" alt="">
+// 	<img src="">
+// </div>`; 
+
+
+function addImage(ImgName, node, classs) {
+
+	const newImage = new Image();
+	newImage.src = ImgName;
+
+	if (arguments[2] !== undefined) {
+		newImage.className = classs;
+	}
+
+	node.appendChild(newImage);
+
+}
+
+
+const backgroundImage = document.createElement("div");
+backgroundImage.id = "container";
+backgroundImage.appendChild(document.createElement("div"));
+backgroundImage.firstChild.id = "images";
+addImage(ImageOne, backgroundImage.firstChild, 'img-not-center');
+addImage(ImageTwo, backgroundImage.firstChild, 'img-center');
+addImage(ImageThree, backgroundImage.firstChild, 'img-center');
+addImage(ImageFour, backgroundImage.firstChild);
+
 
 const homeContentHTML = `<p>Passionate about making vegan food look and taste good</p>
 	<p> We are open Monday--Friday</p>
@@ -32,7 +64,8 @@ function addActiveClass(id) {
 
 export {
 	headerHTML,
-	backgroundContentHTML,
+	// backgroundContentHTML,
+	backgroundImage,
 	homeContentHTML,
 	footerHTML,
 	addActiveClass

@@ -9,7 +9,7 @@
 	flex-direction: column;
 	text-align: center;
 	height: inherit;
-	overflow: scroll;
+	overflow-y: scroll;
 }
 
 #list-of-dishes {

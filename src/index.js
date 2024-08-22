@@ -7,6 +7,7 @@ import "./contact/contact.css"
 import * as home from "./home/home.js";
 import menuHTML from "./menu/menu.js";
 import contactHTML from "./contact/contact.js";
+import ImageOne from './img/1.png';
 
 
 function render(content, id, classs) {
@@ -23,7 +24,8 @@ function render(content, id, classs) {
 }
 
 document.body.appendChild(render(home.headerHTML, 'header'));
-document.body.appendChild(render(home.backgroundContentHTML, 'container'));
+document.body.appendChild(home.backgroundImage);
+// document.body.appendChild(render(home.backgroundImage, 'container'));
 document.querySelector('#container').appendChild(render(home.homeContentHTML, 'over-img-home', 'over-img'));
 document.body.appendChild(render(home.footerHTML, 'footer'));
 
